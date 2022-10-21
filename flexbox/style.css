@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  display: flex; 
+  /* we usually use flex or grid */
+  place-content: center;
+  background-color: lightgray;
+  height: 100vh;
+}
+p{
+  font-size: 18px;
+  color: white;
+  line-height: 2;
+}
+main {
+  display: flex;  
+  /* the real side desplay of the flex */
+  width: 840px;
+  align-items: center;
+  justify-content: center;
+}
+.b1 {
+  background-color: orange;
+  border-radius:  10px 0 0 10px;
+  padding: 40px 32px;
+}
+
+.b2 {
+  background-color: cyan;
+  padding: 40px 32px;
+}
+
+.b3 {
+  background-color: darkcyan;
+  border-radius:  0 10px 10px 0;
+  padding: 40px 32px;
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 16;
+  background: lightgray;
+    /* transition: all ease 1s */
+}
+
+button:hover {
+  background: slategrey;
+  /* can be transparent */
+  color: green;
+}
